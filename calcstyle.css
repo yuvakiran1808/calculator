@@ -1,0 +1,38 @@
+td{
+    padding: 8px;
+    display: flex;
+    justify-content: space-around;
+     flex-wrap: wrap;
+    
+}
+
+input{
+ width: 8em;
+ padding: 10px;
+font-weight:bold;
+flex-wrap: nowrap;
+font-size: large;
+}
+body{
+    background-color: rgb(215, 228, 26);
+    margin-top:30vh;
+}
+ #content{
+     width: 40em;
+     padding: 10px;
+     border-radius: 2px;
+     border: 1px solid red;
+     /* border: none; */
+     margin-bottom: 3vh;
+}
+#submit{
+    width: 32em;
+    padding: 10px
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
