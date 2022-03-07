@@ -1,14 +1,19 @@
+const values =  document.getElementById("content");
+function dis(val){
 
-const  key = document.getElementById("content");
-function dis(val)
-{
-key.value+=val
-}
-
-function solve()
-{
-let x = document.getElementById("content").value
-let y = eval(x)
+    values.value+=val;
+    
+ }
+    
+  function solve()
+    {
+    let  key = document.getElementById("content").value;
+    if(isNaN(key))
+    {
+        document.getElementById("content").value = "ENTER VALID INPUT";
+    }
+// let x = document.getElementById("content").value
+let y = eval(key)
 document.getElementById("content").value = y
 }
 function clr()
