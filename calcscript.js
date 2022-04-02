@@ -11,6 +11,10 @@ function dis(val){
     if(isNaN(key))
     {
         document.getElementById("content").value = "ENTER VALID INPUT";
+        setTimeout(()=>{
+        document.getElementById("content").value = "";
+
+        },1000);
     }
 // let x = document.getElementById("content").value
 let y = eval(key)

@@ -14,7 +14,7 @@ flex-wrap: nowrap;
 font-size: large;
 }
 body{
-    background-color: rgb(215, 228, 26);
+    background-color: rgb(15, 15, 9);
     margin-top:20vh;
 }
  #content{
@@ -35,5 +35,6 @@ h1{
     display: flex;
     justify-content:center;
     flex-wrap: wrap;
+    color: white;
     /* position: relative; */
 }
